@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#loginBox{
+display: flex;
+margin-left: 150px;
+margin-right: auto;
+margin-top: 150px;
+}
+body{
+    background-image:url(./image/night-7683839_1280.jpg);
+    background-size: cover;
+}
+.container{
+    animation: login 1s normal;
+}
+
+@keyframes login{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        transform:
+        scale(1.2);
+    }
+    100%{
+        opacity: 1;
+    }
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./image/mexico-7596566_1920.jpg);
+}
+.container{
+    width: 250px;
+    
+}
+main{
+    animation: move 1s;
+}
+
+@keyframes move{
+    0%{
+        bottom: 80px;
+        transform: rotate(720deg);
+    }
+    50%{
+        margin-top: 200px;
+        transform:
+        rotate(360deg) scale(1.5);
+    }
+    100%{
+        transform: rotate(0deg)
+    }
+}

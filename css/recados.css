@@ -1,0 +1,49 @@
+body{
+    background-image: url(./image/sticky-note-681016_1280.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+td{
+    width: 30px;
+    height: 20px;
+    background-color: #646464;
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+h2{
+    text-align: justify;
+    color: white;
+}
+#criaRecado{
+    text-align: center;
+    padding: auto;
+    margin: auto;
+}
+#table1{
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 900px;
+}
+#sair{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+#divRecados{
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-right: auto;
+    width: 600px;
+}
+td:hover{
+    background: rgb(7, 139, 123) ;
+    animation: ease-out;
+    box-shadow: 5px 5px 5px;
+    transform: scale(1.5, 1.5);
+}
